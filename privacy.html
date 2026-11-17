@@ -24,7 +24,7 @@ nav a{margin-right:16px;font-weight:600;text-decoration:none}
 <main>
 <nav><a href="index.html">Home</a><a href="support.html">Support</a></nav>
 <h1>Privacy Policy</h1>
-<p class="mute">Last updated: 15 November 2026</p>
+<p class="mute">Last updated: 16 November 2026</p>
 
 <div class="card">
 <p><strong>The short version:</strong> the debts and payments you enter in ChipAway stay on your phone. We don't ask for your bank logins, we don't show ads, we don't track you, and we never sell your data.</p>
@@ -38,6 +38,7 @@ nav a{margin-right:16px;font-weight:600;text-decoration:none}
 
 <h2>Screenshot upload (optional)</h2>
 <p>If you choose to upload a screenshot of your spending, the image is sent securely to our server. The server passes it to an AI service, which reads the transactions and sends the amounts back to the app. We do not keep your screenshot: it is deleted as soon as it has been read. We do not keep the transactions on our server either, as they are returned to your phone.</p>
+<p>Screenshot reading is a feature for paying subscribers. To check this, the app sends your anonymous app ID along with the screenshot. This is the same random ID that RevenueCat uses, not your name, email or Apple Account. Our server asks RevenueCat whether that ID has an active subscription, then discards the ID. It is not stored with your screenshot or kept in any log.</p>
 <p>To prevent misuse and keep costs fair, our server keeps a simple daily counter of how many screenshots have been read from each internet connection. The counter holds only a number and the internet address it came from, with no screenshot and no transaction details, and it is deleted automatically after two days.</p>
 <p>A screenshot can contain personal details such as shop names or account information. We recommend cropping it to just the transactions before you upload it. Our AI provider processes the image only to return the result to us, under its commercial terms, which do not allow your data to be used to train its models. Uploading a screenshot is always your choice, and the rest of the app works without it.</p>
 
@@ -59,7 +60,7 @@ nav a{margin-right:16px;font-weight:600;text-decoration:none}
 <p>Only the service providers needed to run the app: Apple (purchases), RevenueCat (subscription status), our AI provider (reading screenshots you choose to upload) and our server hosting provider. They act on our instructions and only receive what they need to do their job.</p>
 
 <h2>Our lawful reasons</h2>
-<p>We handle subscription status so that we can provide the app you have paid for (contract). We process screenshots you upload because you ask us to (consent), and you can stop at any time by not uploading. We keep the short-lived daily counter described above to keep the service secure and prevent misuse (legitimate interests). We do not keep logs of your screenshots or transactions.</p>
+<p>We handle subscription status so that we can provide the app you have paid for (contract). We check your subscription status when you upload a screenshot so that the feature is available to subscribers (contract). We process screenshots you upload because you ask us to (consent), and you can stop at any time by not uploading. We keep the short-lived daily counter described above to keep the service secure and prevent misuse (legitimate interests). We do not keep logs of your screenshots or transactions.</p>
 
 <h2>How long we keep data</h2>
 <p>Screenshots are deleted as soon as they have been read. The daily usage counter is deleted automatically after two days. Subscription status is kept by RevenueCat while you are a customer, as described in its policy. Everything else stays on your phone under your control.</p>
